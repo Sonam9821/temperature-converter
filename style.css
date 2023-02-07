@@ -1,0 +1,117 @@
+
+*{
+        margin: 0;
+        padding: 0;
+        font-family:'poppins',sans-serif;
+        box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 101vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("son.jpg");
+}
+/*.logo{
+    width: 140px;
+    margin-left: 0%;
+    
+}*/
+
+.container h1{
+    font-size: 35px;
+    color: #000;
+}
+
+.temp_calculator{
+    background: #ff004f;
+    width: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    border: thick double;
+    border-color:black;
+}
+
+form {
+    padding: 20px;
+}
+h1.title {
+    background:black ;
+    border-radius: 6px;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background:white;
+    padding: 8px;
+    border-radius: 6px;
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+form label{
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+}
+.result_area input {
+    width: 82%;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert {
+    float: right;
+}
+
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.cal-btn:hover{
+    background:#ababab;
+}
+select {
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+    
+}
